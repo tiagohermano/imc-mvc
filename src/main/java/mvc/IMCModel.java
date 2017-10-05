@@ -11,7 +11,7 @@ public class MaiorMenorModel {
         }
            
         public static String resultado(float imc, String sexo){
-                if(sexo == "masculino"){
+                if(sexo.equals("masculino")){
                     if(imc<=20.7){
                         return "Seu IMC: Abaixo do peso";
                     }
